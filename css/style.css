@@ -2,6 +2,8 @@
   width: 100%;
   height: auto;
   position: sticky;
+  top: 0;
+  z-index: 10;
   background-color: black; }
 
 .main_navbar ul {
@@ -55,6 +57,37 @@
     right: 0;
     color: #fff;
     padding: 12px 24px !important; }
+
+.main_section_about {
+  background-color: #faf4e9; }
+  .main_section_about .about_container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px; }
+    .main_section_about .about_container h2 {
+      text-align: center !important;
+      width: auto;
+      padding: 65px; }
+      .main_section_about .about_container h2 span {
+        padding: 0px 10px 0px 10px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-size: 18px;
+        color: #fff;
+        background-color: black; }
+    .main_section_about .about_container p {
+      padding-top: 20px;
+      font-size: 18px !important; }
+    .main_section_about .about_container .text_container {
+      margin: 20px 0px 20px 0px;
+      border-left: 6px solid #ccc !important;
+      background-color: #f1f1f1 !important;
+      padding: 0.01em 16px; }
+      .main_section_about .about_container .text_container p {
+        font-size: 18px !important;
+        font-family: "Inconsolata", sans-serif; }
+    .main_section_about .about_container img {
+      width: 100%; }
 
 * {
   margin: 0;
