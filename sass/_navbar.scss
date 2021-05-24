@@ -1,0 +1,33 @@
+.main_header {
+    width: 100%;
+    height: auto;
+    position: sticky;
+    background-color: $header_color;
+}
+.main_navbar {
+    ul {
+        height: auto;
+        align-items: center;
+        padding: 5px 5px !important;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-around;
+        li {
+            width: 100%;
+            text-align: center;
+            list-style: none;
+            a {
+                padding: 15px 0px 15px 0px;
+                width: 100%;
+                font-family: "Inconsolata", sans-serif;
+                display: inline-block;
+                text-decoration: none;
+                color: $navbar_color;
+                &:hover {
+                    background-color: $hover_color;
+                    color: $header_color;
+                }
+            }
+        }
+    }
+}
