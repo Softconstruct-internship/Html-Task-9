@@ -141,6 +141,65 @@
       width: 100%;
       padding: 30px 0px 30px 0px; }
 
+.main_section_where {
+  background-color: #faf4e9; }
+  .main_section_where h2 {
+    text-align: center !important;
+    width: auto;
+    padding: 65px; }
+    .main_section_where h2 span {
+      padding: 0px 10px 0px 10px;
+      font-weight: 400;
+      letter-spacing: 4px;
+      font-size: 18px;
+      color: #fff;
+      background-color: black; }
+  .main_section_where .img_container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px; }
+    .main_section_where .img_container img {
+      padding: 20px 0px 20px 0px;
+      width: 100%; }
+    .main_section_where .img_container p {
+      padding: 10px 0px 10px 0px; }
+      .main_section_where .img_container p strong {
+        background-color: black;
+        color: #fff;
+        padding: 0px 8px 0px 8px; }
+
+.containers {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr; }
+  .containers .form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    position: relative; }
+    .containers .form div {
+      position: absolute;
+      bottom: 0;
+      justify-content: space-between;
+      width: 100%;
+      display: flex;
+      padding: 11px 22px 10px 2px; }
+    .containers .form .form-input {
+      height: 40px;
+      margin-bottom: 20px;
+      padding: 8px 16px;
+      font-size: 16px; }
+  .containers .form-button {
+    width: 160px;
+    background-color: black;
+    color: #fff;
+    font-size: 16px;
+    border: 0;
+    padding: 8px 14px; }
+    .containers .form-button:hover {
+      background-color: #b6b6b6;
+      color: black; }
+
 * {
   margin: 0;
   padding: 0;

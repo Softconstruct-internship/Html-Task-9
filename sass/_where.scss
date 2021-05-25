@@ -1,0 +1,72 @@
+.main_section_where {
+    background-color: $main_background-color;
+
+    h2 {
+        text-align: center !important;
+        width: auto;
+        padding: 65px;
+        span {
+            padding: 0px 10px 0px 10px;
+            font-weight: 400;
+            letter-spacing: 4px;
+            font-size: 18px;
+            color: $navbar_color;
+            background-color: $header_color;
+        }
+    }
+    .img_container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 700px;
+        img {
+            padding: 20px 0px 20px 0px;
+            width: 100%;
+        }
+        p {
+            padding: 10px 0px 10px 0px;
+            strong {
+                background-color: $header_color;
+                color: $navbar_color;
+                padding: 0px 8px 0px 8px;
+            }
+        }
+    }
+}
+
+.containers {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    .form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        position: relative;
+        div {
+            position: absolute;
+            bottom: 0;
+            justify-content: space-between;
+            width: 100%;
+            display: flex;
+            padding: 11px 22px 10px 2px;
+        }
+        .form-input {
+            height: 40px;
+            margin-bottom: 20px;
+            padding: 8px 16px;
+            font-size: 16px;
+        }
+    }
+    .form-button {
+        width: 160px;
+        background-color: $header_color;
+        color: $navbar_color;
+        font-size: 16px;
+        border: 0;
+        padding: 8px 14px;
+        &:hover {
+            background-color: rgb(182, 182, 182);
+            color: $header_color;
+        }
+    }
+}
