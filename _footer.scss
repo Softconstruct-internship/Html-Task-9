@@ -1,0 +1,16 @@
+footer{
+    background-color: #f1f1f1!important;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        a {
+            color: $header_color;
+            &:hover {
+                color: green;
+            }
+        }
+    }
+}
+

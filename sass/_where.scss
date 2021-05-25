@@ -34,6 +34,7 @@
 }
 
 .containers {
+    padding-bottom: 40px;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
@@ -68,5 +69,11 @@
             background-color: rgb(182, 182, 182);
             color: $header_color;
         }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .img_container{
+        padding: 20px;
     }
 }
