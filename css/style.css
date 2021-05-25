@@ -138,7 +138,8 @@
         font-size: 18px !important;
         font-family: "Inconsolata", sans-serif; }
     .main_menu_section .menu_container img {
-      width: 100%; }
+      width: 100%;
+      padding: 30px 0px 30px 0px; }
 
 * {
   margin: 0;
